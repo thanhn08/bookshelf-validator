@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fluxxu/bookshelf-validator.git"
+    "url": "https://github.com/thanhn08/bookshelf-validator/issues"
   },
   "keywords": [
     "bookshelf",
@@ -16,15 +16,15 @@
     "validator"
   ],
   "author": {
-    "name": "Flux Xu"
+    "name": "Thanh Nguyen"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fluxxu/bookshelf-validator/issues"
+    "url": "https://github.com/thanhn08/bookshelf-validator/issues"
   },
   "dependencies": {
     "bookshelf": "0.x.x",
-    "evalidator": "0.x.x"
+    "evalidator": "thanhn08/evalidator"
   },
   "devDependencies": {
     "mysql": "^2.2.0",

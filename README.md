@@ -1,5 +1,6 @@
 bookshelf-validator
 ===================
+This is forked from Fluxxu's bookshelf-validator (https://github.com/thanhn08/bookshelf-validator). Much credit goes to him.
 
 Full feature validation plugin for Bookshelf.
 
@@ -12,7 +13,7 @@ npm install bookshelf-validator
 ```javascript
 var Validator = require('bookshelf-validator'),
     ValidationError = Validator.ValidationError;
-    
+
 var DbContext = Bookshelf.initialize(config);
 
 DbContext.plugin(Validator.plugin);
@@ -48,7 +49,7 @@ Obj.forge({}).save()
         expect(e.errors.quantity).to.have.length(1);
         expect(e.errors.quantity[0]).to.equal('quantity must be integer');
     });
-    
+
 
 Obj.forge({ name: 'Name', quantity: 1 }).save()
     .then(function () {
